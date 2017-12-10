@@ -7,6 +7,7 @@
                   if (data.name == "") data.name = data.login;
                   $scope.user = data;
                   $scope.loaded = true;
+                  $scope.loaded = true;
                })
                .error(function () {
                   $scope.userNotFound = true;
