@@ -11,7 +11,7 @@
                })
                .error(function () {
                   $scope.userNotFound = true;
-                  //server modify two
+                  //check if checkout works 
                });
          $http.get("https://api.github.com/users/" + $scope.username + "/repos").success(function (data) {
             $scope.repos = data;
