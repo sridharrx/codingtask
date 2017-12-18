@@ -11,7 +11,7 @@
                })
                .error(function () {
                   $scope.userNotFound = true;
-                  //modified in local
+                  //this is an other branch;
                });
          $http.get("https://api.github.com/users/" + $scope.username + "/repos").success(function (data) {
             $scope.repos = data;
