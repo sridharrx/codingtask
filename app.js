@@ -12,7 +12,7 @@
                .error(function () {
                   $scope.userNotFound = true;
                   //changed it
-            //changged locally
+            //changged 
                });
          $http.get("https://api.github.com/users/" + $scope.username + "/repos").success(function (data) {
             $scope.repos = data;
