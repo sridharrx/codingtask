@@ -1,4 +1,4 @@
-   function GitHubCtrl($scope,  $http) {
+   function GitHubCtrl($scope, $http) {
       $scope.userNotFound = false;
       $scope.loaded = false;
       $scope.getGitInfo = function () {
