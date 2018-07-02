@@ -16,7 +16,7 @@
                });
          $http.get("https://api.github.com/users/" + $scope.username + "/repos").success(function (data) {
             $scope.repos = data;
-            $scope.reposFound = data.length > 0;
+            $scope.reposFound = data.length>0;
          });
       }
    }
