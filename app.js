@@ -10,7 +10,9 @@
                   $scope.loaded = true;
                })
                .error(function () {
-                  $scope.userNotFound = true;
+                  $scope.userNotFound = false;
+                  dfksdlfksdlfks;dfsdl;fkdslfkds;lf
+                  sdlfkdslfkdslfkdslfkdslfkdslfdslfdslfkdsl
                   //changed it
             //changged locally
                });
