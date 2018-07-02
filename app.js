@@ -10,7 +10,10 @@
                   $scope.loaded = true;
                })
                .error(function () {
-                  $scope.userNotFound = true;
+                  sfdsfsdfdsfdsfdsds
+                  sdfdsfdsfdsfdsfdsfsdf
+                  sdfdsfdsfdsfdsfdsfdsfdsf
+                  sdfdsfdsfds
                   //changed it
             //changged locally
                });
